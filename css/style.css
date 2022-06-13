@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#dive{
+  color: white;
+  background-color: orange;
+  width: 500px;
+  padding: 20px 40px;
+  margin-left: 25px;
+  margin-top: 40px;
+  border-top: 10px solid brown;
+  border-right: 10px solid aqua;
+  border-bottom: 10px solid greenyellow;
+  border-left: 10px solid orchid;
+}
+
+.dote{
+  color: azure;
+  background-color: brown;
+  border: 5px dotted gold;
+  width: 80%;
+}
+
+p{
+  color: gray;
+  border: 15px groove gold;
+}
+.jone{
+  color: white;
+  background-color: orangered;
+  padding: 20px;
+  position: fixed;
+  top: 500px;
+  right: 0;
+}
+
+.menu{
+  width: 100%;
+  padding: 10px;
+  margin-left: 0;
+  background-color: ghostwhite;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  border: 1px solid black;
+}
+
+div{
+  position: relative;
+  width: 500px;
+}
+.moree{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.main{
+  height: 600px;
+  background-color: gray;
+  position: relative;
+}
+.item{
+  width: 200px;
+  height: 200px;
+}
+.one{
+  background-color: red;
+  position: absolute;
+  left: 80px;
+  z-index: 2;
+}
+.two{
+  background-color: green;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+.three{
+  background-color: blueviolet;
+  position: absolute;
+  bottom: 180px;
+  left: 60px;
+}
+.four{
+  background-color: black;
+  position: absolute;
+  right: 90px;
+  top: 40px;
+  z-index: 3;
+}
